@@ -1,4 +1,5 @@
 class Rational(n: Int ,d : Int){
+    require(d!=0)
     println("Created"+n+"/"+d)
 }
 object Rational_Constructor{
