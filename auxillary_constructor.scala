@@ -1,9 +1,7 @@
 class Rational(n: Int ,d : Int){
     val num : Int = n
     val denom : Int = d
-
     def this(n : Int) = this(n,1)
-
     def display()={
         println(s"$n/$d")
     }
