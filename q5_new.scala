@@ -3,7 +3,7 @@ class Road(x: Boolean,y : Boolean,z: Boolean) {
     var crossing = y
     var green = z
 }
-class Question5{
+object Question5{
     def main(args : Array[String])={
         check(new Road(true,true,false))
         check(new Road(false,false,true))
